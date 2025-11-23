@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Science+Gothic:wght@100..900&display=swap');
+
+html {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.daftar__app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+.chatgpt,
+.gemini,
+.claude,
+.grok,
+.deepseek {
+    background-color: #cbcbcb33;
+    width: 130px;
+    height: 190px;
+    padding: 18px;
+    border-radius: 18px;
+    transition: background-color ease 0.2s;
+}
+
+.chatgpt:hover,
+.gemini:hover,
+.claude:hover,
+.grok:hover,
+.deepseek:hover {
+    background-color: #a9a9a911;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.download, .download_d {
+    color: #ffffff;
+    background-color: #338923;
+    padding: 3px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color ease 0.5s;
+}
+
+.download:hover, .download_d:hover {
+    background-color: #115601;
+}
+
+.detail {
+    display: none;
+}
+
+.info_singkat {
+    display: flex;
+    flex-direction: row;
+}
+
+.back {
+    background-color: transparent;
+    font-size: 1.3rem;
+    border: none;
+    transition: background-color ease 0.3s;
+    border-radius: 50%;
+}
+
+.back:hover {
+    background-color: #a0a0a0;
+}
+
+.publisher {
+    color: #427cff;
+    text-decoration: none;
+}
